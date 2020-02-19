@@ -5,9 +5,9 @@
     {
       "label": "build-cl",
       "type": "shell",
-      "command": "./.vscode/build.cmd",      
+      "command": ".\\.vscode/build.cmd",      
       "args": [
-        "c:/usr/vc/bin/hostx64/x64/cl.exe",
+        "c:\\usr\\vc\\bin\\hostx64\\x64\\cl.exe",
         "/EHsc",
         "/W3",
         "/MT",
@@ -32,9 +32,9 @@
     {
       "label": "build-clang",
       "type": "shell",
-      "command": "./.vscode/build.cmd",
+      "command": ".\\.vscode/build.cmd",
       "args": [
-        "c:/usr/clang/bin/clang-cl.exe",
+        "c:\\usr\\clang\\bin\\clang-cl.exe",
         "-fuse-lld",
         "-flto-thin",
         "/EHsc",

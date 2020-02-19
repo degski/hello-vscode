@@ -1,0 +1,41 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "team.showWelcomeMessage": false,
+    "files.autoSave": "onFocusChange",
+    "vsicons.dontShowNewVersionMessage": true,
+    "python.jediEnabled": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "prolog.executablePath": "c:\\program files\\swipl\\bin\\swipl.exe",
+    "prolog.linter.delay": 750,
+    "git.enableSmartCommit": true,
+    "editor.fontFamily": "Cascadia, 'Courier New', monospace",
+    "python.dataScience.sendSelectionToInteractiveWindow": false,
+    "editor.fontSize": 16,
+    "C_Cpp.default.cStandard": "c99",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "C_Cpp.default.includePath": [
+        "c:\\usr\\vc\\include\\**",
+        "c:\\usr\\netfxsdk\\include\\um\\**",
+        "c:\\usr\\kits\\ucrt\\**",
+        "c:\\usr\\kits\\shared\\**",
+        "c:\\usr\\kits\\um\\**",
+        "c:\\usr\\kits\\winrt\\**",
+        "c:\\usr\\kits\\cppwinrt\\**",
+        "${workspaceFolder}\\**",
+        "${vcpkgRoot}\\x64-windows\\include\\**",
+        "${vcpkgRoot}\\x64-windows-static\\include\\**",
+        "${vcpkgRoot}\\x86-windows\\include\\**",
+        "${vcpkgRoot}\\x86-windows-static\\include\\**"
+    ],
+    "C_Cpp.default.defines": [
+        "UNICODE",
+        "_UNICODE",
+        "NOMINMAX"
+    ],
+    "C_Cpp.default.windowsSdkVersion": "10.0.18362.0",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.allowForcePush": true,
+    "git.autoStash": true
+}
