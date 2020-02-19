@@ -1,16 +1,17 @@
 {
     "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.startupEditor": "newUntitledFile",
     "team.showWelcomeMessage": false,
     "files.autoSave": "onFocusChange",
     "vsicons.dontShowNewVersionMessage": true,
-    "python.jediEnabled": false,
-    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontFamily": "Cascadia, 'Courier New', monospace",
+    "editor.fontSize": 17,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
     "prolog.executablePath": "c:\\program files\\swipl\\bin\\swipl.exe",
     "prolog.linter.delay": 750,
-    "git.enableSmartCommit": true,
-    "editor.fontFamily": "Cascadia, 'Courier New', monospace",
+    "python.jediEnabled": false,
     "python.dataScience.sendSelectionToInteractiveWindow": false,
-    "editor.fontSize": 16,
     "C_Cpp.default.cStandard": "c99",
     "C_Cpp.default.cppStandard": "c++17",
     "C_Cpp.intelliSenseEngine": "Tag Parser",
@@ -34,8 +35,7 @@
         "NOMINMAX"
     ],
     "C_Cpp.default.windowsSdkVersion": "10.0.18362.0",
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true,
     "git.allowForcePush": true,
     "git.autoStash": true
 }
