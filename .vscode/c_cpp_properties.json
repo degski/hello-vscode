@@ -8,7 +8,6 @@
                 "_UNICODE",
                 "NOMINMAX"
             ],
-            "windowsSdkVersion": "10.0.18362.0",
             "cStandard": "c89",
             "cppStandard": "c++20",
             "includePath": [ "$(default)" ],
@@ -26,7 +25,6 @@
                 "_UNICODE",
                 "NOMINMAX"
             ],
-            "windowsSdkVersion": "10.0.18362.0",
             "cStandard": "c89",
             "cppStandard": "c++20",
             "intelliSenseMode": "msvc-x64",
@@ -42,7 +40,6 @@
                 "_UNICODE",
                 "NOMINMAX"
             ],
-            "windowsSdkVersion": "10.0.18362.0",
             "intelliSenseMode": "clang-x64",
             "compilerArgs": [
                 "/Od",
@@ -57,7 +54,6 @@
                 "_UNICODE",
                 "NOMINMAX"
             ],
-            "windowsSdkVersion": "10.0.18362.0",
             "intelliSenseMode": "clang-x64",
             "compilerArgs": [
                 "/O2"
