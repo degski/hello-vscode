@@ -1,18 +1,17 @@
 
 :: create junctions.
 
-md "c:\usr" 
+@md "c:\usr" 
 
-mklink /J "c:\usr\vc" "c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.24.28314"
-mklink /J "c:\usr\vc_community" "c:\program files (x86)\microsoft visual studio\2019\community\vc"
-mklink /J "c:\usr\build" "c:\program files (x86)\microsoft visual studio\2019\community\vc\auxiliary\build"
-mklink /J "c:\usr\clang" "c:\program files\llvm"
-mklink /j "c:\usr\netfxsdk" "c:\program files (x86)\windows kits\netfxsdk\4.8"
-mklink /j "c:\usr\kits" "c:\program files (x86)\windows kits\10\include\10.0.18362.0"
+@mklink /J "c:\usr\vc" "c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.24.28314" >> nul
+@mklink /J "c:\usr\vc_community" "c:\program files (x86)\microsoft visual studio\2019\community\vc" >> nul
+@mklink /J "c:\usr\clang" "c:\program files\llvm" >> nul
+@mklink /J "c:\usr\netfxsdk" "c:\program files (x86)\windows kits\netfxsdk\4.8" >> nul
+@mklink /J "c:\usr\kits" "c:\program files (x86)\windows kits\10\include\10.0.18362.0" >> nul
 
 :: call compiler with arguments.
 
-call c:\usr\build\vcvarsall.bat.cmd x64
+@call "c:\program files (x86)\microsoft visual studio\2019\community\vc\auxiliary\build\vcvarsall.bat" x64
 
 :: https://stackoverflow.com/a/20702597/646940
 
@@ -33,4 +32,4 @@ call c:\usr\build\vcvarsall.bat.cmd x64
 
 :: cleanup.
 
-rd /S /Q "c:\usr"
+@rd /S /Q "c:\usr"

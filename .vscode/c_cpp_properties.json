@@ -1,63 +1,16 @@
 {
     "configurations": [
         {
-            "name": "cl-debug",
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE",
-                "NOMINMAX"
-            ],
+            "name": "vc",
             "cStandard": "c89",
             "cppStandard": "c++20",
             "includePath": [ "$(default)" ],
-            "intelliSenseMode": "msvc-x64",
-            "compilerArgs": [
-                "/Od",
-                "/Z7"
-            ]
+            "intelliSenseMode": "msvc-x64"
         },
         {
-            "name": "cl-release",
-            "defines": [
-                "NODEBUG",
-                "UNICODE",
-                "_UNICODE",
-                "NOMINMAX"
-            ],
-            "cStandard": "c89",
-            "cppStandard": "c++20",
-            "intelliSenseMode": "msvc-x64",
-            "compilerArgs": [
-                "/O2"
-            ]
-        },
-        {
-            "name": "clang-debug",
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE",
-                "NOMINMAX"
-            ],
-            "intelliSenseMode": "clang-x64",
-            "compilerArgs": [
-                "/Od",
-                "/Z7"
-            ]
-        },
-        {
-            "name": "clang-release",
-            "defines": [
-                "NODEBUG",
-                "UNICODE",
-                "_UNICODE",
-                "NOMINMAX"
-            ],
-            "intelliSenseMode": "clang-x64",
-            "compilerArgs": [
-                "/O2"
-            ]
+            "name": "clang",
+            "includePath": [ "$(default)" ],
+            "intelliSenseMode": "clang-x64"
         }
     ],
     "version": 4
